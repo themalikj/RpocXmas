@@ -60,13 +60,15 @@ a {
  *  Cover
  **********************************************************************/
 .mycontainer {
-    height: 50vh; 
+    height: 35vh; 
     display: flex;
     align-items: center;
     justify-content: center;
     background-image: url("./img/rpoc.jpg");
     background-size: cover;
     width: 100%;
+    background-repeat:   no-repeat;
+    background-position: center top;
 }
 img{
     width: 100%;
