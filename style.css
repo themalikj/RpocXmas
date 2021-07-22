@@ -1,5 +1,6 @@
 body {
     margin: 0 auto;
+    font-family: Arial;
 }
 
 .zone {
@@ -22,6 +23,12 @@ body {
 /***********************************************************************
  *  Nav Bar
  **********************************************************************/
+.sticky{
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
 .main-nav {
     display: flex;
     list-style: none;
@@ -48,17 +55,21 @@ a {
     color: #f5f5f6;
     text-decoration: none;
 }
-    
 
 /***********************************************************************
  *  Cover
  **********************************************************************/
-.container {
-    /*show heigh: auto*/
+.mycontainer {
     height: 50vh; 
     display: flex;
     align-items: center;
     justify-content: center;
+    background-image: url("./img/rpoc.jpg");
+    background-size: cover;
+    width: 100%;
+}
+img{
+    width: 100%;
 }
 
 /***********************************************************************
